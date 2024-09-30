@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['5_L - v6 5_new_blur', 'testingground_3.0 - v1 2023-06-11 9-23pm']
+
+roboflow:
+  workspace: ensam-h3uqh
+  project: hands-detection-hknbq
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ensam-h3uqh/hands-detection-hknbq/dataset/3
